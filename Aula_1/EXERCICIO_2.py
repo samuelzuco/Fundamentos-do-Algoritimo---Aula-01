@@ -1,7 +1,9 @@
-quilometros_percorridos = float(input("digite o KM percorrido:"))
-dias = int(input("digite a quantidade de dia:"))
-dia = 60.0 * dias
-KM_percorridos = 0.15 * quilometros_percorridos
+i = 0 
 
-total_a_pagar = (dia + KM_percorridos)
-print("total a pagar:", total_a_pagar)
+while i <= 51:
+    print(i)
+    i = i + 1
+
+while i <= 100:
+    print(i)
+    i = i + 2

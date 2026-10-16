@@ -1,0 +1,15 @@
+from random import randint, random
+
+lista1 = [round((random() * 100)) for i in range (10)]
+
+
+lista2 = [(random() * 5 ) for i in range (5)]
+
+
+lista3 = ["pastel", "alcool", "vida", "amor", "carro", "jesus", "tatu"]
+
+
+soma = lista1 + lista2+ lista3
+
+print(soma)
+
